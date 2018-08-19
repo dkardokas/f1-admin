@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/f1Admin/F1AdminWebPart.js",
+      "manifest": "./src/webparts/f1Admin/F1AdminWebPart.manifest.json",
+      "outputPath": "./dist/f-1-admin-web-part.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "F1AdminWebPartStrings": "webparts/f1Admin/loc/{locale}.js"
+  }
+}

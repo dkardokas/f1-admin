@@ -1,0 +1,11 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "f-1-admin-client-side-solution",
+    "id": "8bb1503a-3ad0-4ff7-9334-4ae5ee9cf9e6",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/f-1-admin.sppkg"
+  }
+}
