@@ -70,7 +70,7 @@ export default class F1Admin extends React.Component<IF1AdminProps, any> {
           <div className={styles.row}>
             <div className={styles.column}>
               <Dropdown
-                label='Race'
+                label='Race (Admin)'
                 options={this.state.raceList}
                 onChanged={(item) => this._raceSelected(item)}
               />
@@ -103,11 +103,11 @@ export default class F1Admin extends React.Component<IF1AdminProps, any> {
 
   private _updateEntryPoints(itemId, p1Points, p2Points, p3Points, p4Points, p5Points ): Promise<any>{
     var updateData = {
-      Points_P1: p1Points,
-      Points_P2: p2Points,
-      Points_P3: p3Points,
-      Points_P4: p4Points,
-      Points_P5: p5Points,
+      P1_Points: p1Points,
+      P2_Points: p2Points,
+      P3_Points: p3Points,
+      P4_Points: p4Points,
+      P5_Points: p5Points,
       ShowInResults: true
     };
 
